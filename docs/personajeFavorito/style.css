@@ -2,8 +2,8 @@
   PALETA DE COLORES
 ======================================*/
 :root {
-    --color-primario: #63ff21;
-    --color-secundario: #3155f5;
+    --color-primario: #21ffc7;
+    --color-secundario: #3ef531;
 }
 
 /*======================================
@@ -25,7 +25,7 @@ body {
     );
 
     min-height: 100vh;
-    color: #333;
+    color: #05ea0d;
 }
 
 /*======================================
@@ -46,7 +46,7 @@ body {
         var(--color-secundario)
     );
 
-    color: white;
+    color: rgba(24, 150, 223, 0.946);
 }
 
 .hero-content {
@@ -59,7 +59,7 @@ body {
     text-transform: uppercase;
 
     text-shadow:
-        0 0 10px rgba(255,255,255,.5),
+        0 0 10px rgba(255, 255, 255, 0.5),
         0 0 30px rgba(255,255,255,.3);
 
     animation: flotar 3s ease-in-out infinite;
